@@ -40,8 +40,6 @@
 	// Scrollax
    $.Scrollax();
 
-
-
    // Burger Menu
 	var burgerMenu = function() {
 
@@ -54,9 +52,6 @@
 			} else {
 				$(this).addClass('active');	
 			}
-
-			
-			
 		});
 
 	};
@@ -64,8 +59,6 @@
 
 
 	var onePageClick = function() {
-
-
 		$(document).on('click', '#ftco-nav a[href^="#"]', function (event) {
 	    event.preventDefault();
 
@@ -82,7 +75,6 @@
 
 	onePageClick();
 	
-
 	var carousel = function() {
 		$('.carousel-friends').owlCarousel({
 			autoplay: true,
@@ -330,4 +322,3 @@
 setInterval(function() { makeTimer(); }, 1000);
 
 })(jQuery);
-
